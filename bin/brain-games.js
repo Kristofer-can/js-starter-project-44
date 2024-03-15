@@ -1,3 +1,7 @@
 #!/usr/bin/env node
-import { welcome } from '../src/cli.js';
+
+/* eslint-disable import/extensions */
+
+import welcome from '../src/cli.js';
+
 welcome();
