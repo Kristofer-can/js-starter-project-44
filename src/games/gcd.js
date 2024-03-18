@@ -3,7 +3,7 @@ function getRandomNumber(min, max) {
 }
 
 const rule = () => {
-  console.log("Find the greatest common divisor of given numbers."); // eslint-disable-line no-console
+  console.log('Find the greatest common divisor of given numbers.'); // eslint-disable-line no-console
 };
 
 const playCALC = () => {
