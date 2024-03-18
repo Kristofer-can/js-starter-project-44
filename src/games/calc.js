@@ -3,11 +3,11 @@ function getRandomNumber(min, max) {
 }
 
 const rule = () => {
-  console.log("What is the result of the expression?"); // eslint-disable-line no-console
+  console.log('What is the result of the expression?'); // eslint-disable-line no-console
 };
 
 const playCALC = () => {
-  const operation = ["+", "-", "*"];
+  const operation = ['+', '-', '*'];
   const one = getRandomNumber(-100, 101);
   const two = getRandomNumber(0, 101);
   const action = getRandomNumber(0, 3);
