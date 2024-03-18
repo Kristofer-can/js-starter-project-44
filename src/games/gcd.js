@@ -10,7 +10,7 @@ const playCALC = () => {
   const one = getRandomNumber(1, 101);
   const two = getRandomNumber(1, 101);
   let rezult = 1;
-  if (one == two) {
+  if (one === two) {
     rezult = one;
   } else {
     const little = one > two ? two : one;
@@ -27,7 +27,7 @@ const playCALC = () => {
       }
     }
   }
-  return [`${one} ${two}`, rezult];
+  return [`${one} ${two}`, String(rezult)];
 };
 
 export { rule, playCALC };

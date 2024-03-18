@@ -25,7 +25,7 @@ const playCALC = () => {
     default:
       break;
   }
-  return [`${one} ${operation[action]} ${two}`, rezult];
+  return [`${one} ${operation[action]} ${two}`, String(rezult)];
 };
 
 export { rule, playCALC };

@@ -13,8 +13,8 @@ const fistPlay = (rule, playCALC) => {
     const [query, ans] = playCALC();
     console.log(`Question: ${query}`); // eslint-disable-line no-console
     const answe = readlineSync.question('Your answer: '); // eslint-disable-line no-console
-    sp.push([Number(answe), ans]);
-    if (Number(answe) !== Number(ans)) {
+    sp.push([answe, ans]);
+    if (answe !== ans) {
       break;
     }
     counter += 1;
@@ -32,4 +32,4 @@ const fistPlay = (rule, playCALC) => {
   }
 };
 
-export { fistPlay };
+export default fistPlay;

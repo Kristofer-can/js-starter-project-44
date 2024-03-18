@@ -18,7 +18,7 @@ const playCALC = () => {
   const replacement = getRandomNumber(0, long);
   const rezult = list[replacement];
   list[replacement] = '..';
-  return [`${list.join(' ')}`, rezult];
+  return [`${list.join(' ')}`, String(rezult)];
 };
 
 export { rule, playCALC };
